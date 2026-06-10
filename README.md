@@ -52,4 +52,4 @@ Siklus ditemukan: 0 1 2 0
 ```
 
 ## Author
-Arya Pratama Putra
+APP
