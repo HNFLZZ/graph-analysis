@@ -2,16 +2,17 @@
 
 Program Java untuk menganalisis graf berarah berbobot menggunakan struktur data Adjacency List.
 
-## Features
-- Weighted Directed Graph
-- Graph Visualization using Adjacency List
-- Connected Components Analysis
-- Cycle Detection using DFS (Three Color Method)
-- Cycle Path Display
+## Fitur
+- Graf Berarah Berbobot
+- Visualisasi Graf menggunakan Adjacency List
+- Analisis Komponen Terhubung
+- Deteksi Siklus menggunakan DFS (Metode Tiga Warna)
+- Menampilkan Jalur Siklus yang Ditemukan
 
-## Algorithms
+
+## Algoritma yang Digunakan
 - Depth First Search (DFS)
-- Three Color Method
+- Metode Tiga Warna (Three Color Method)
 
 ## How to Run
 
@@ -50,6 +51,13 @@ Jumlah komponen terhubung: 1
 Graph memiliki siklus.
 Siklus ditemukan: 0 1 2 0
 ```
+
+## Hasil Program
+- Menampilkan struktur graf
+- Menghitung jumlah komponen terhubung
+- Mendeteksi keberadaan siklus pada graf
+- Menampilkan jalur siklus jika ditemukan
+
 
 ## Author
 APP
