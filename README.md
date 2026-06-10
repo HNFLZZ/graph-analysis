@@ -16,13 +16,18 @@ Program Java untuk menganalisis graf berarah berbobot menggunakan struktur data 
 ## How to Run
 
 Compile:
+```bash
 javac GraphAnalysis.java
+```
 
 Run:
+```bash
 java GraphAnalysis
+```
 
 ## Example Input
 
+```text
 Jumlah simpul: 4
 Jumlah sisi: 4
 
@@ -30,12 +35,21 @@ Jumlah sisi: 4
 1 2 3
 2 0 2
 2 3 4
+```
 
-## Output
-- Menampilkan graf
-- Menghitung jumlah komponen terhubung
-- Mendeteksi apakah terdapat siklus pada graf
-- Menampilkan jalur siklus jika ditemukan
+## Example Output
+
+```text
+Graf:
+0 -> (1, w:5)
+1 -> (2, w:3)
+2 -> (0, w:2) (3, w:4)
+3 ->
+
+Jumlah komponen terhubung: 1
+Graph memiliki siklus.
+Siklus ditemukan: 0 1 2 0
+```
 
 ## Author
-APP
+Arya Pratama Putra
